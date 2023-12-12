@@ -8,6 +8,51 @@
     tools:context=".MainActivity">
 
 
+    <EditText
+        android:id="@+id/EnterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="80dp"
+        android:ems="10"
+        android:hint="Input Here"
+        android:inputType="text"
+        android:text=""
+        android:textColorHint="#DDE0EF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/randogenerator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcometext" />
 
+    <Button
+        android:id="@+id/randogenerator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="246dp"
+        android:text="Generate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EnterName"
+        app:layout_constraintVertical_bias="0.945" />
 
+    <TextView
+        android:id="@+id/welcometext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="98dp"
+        android:background="#CB2DAA48"
+        android:text="MAY LUCK BE WITH YOU"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
